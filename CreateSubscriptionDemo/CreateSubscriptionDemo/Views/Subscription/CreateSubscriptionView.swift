@@ -115,13 +115,13 @@ struct CreateSubscriptionView: View {
                 Button {
                     vm.reset()
                 } label: {
-                    Image("Close")
+                    Image("Back")
                 }
             } else {
                 Button {
                     dismiss()
                 } label: {
-                    Image("Back")
+                    Image("Close")
                 }
             }
         }
